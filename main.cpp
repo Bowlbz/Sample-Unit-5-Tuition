@@ -193,7 +193,7 @@ class Cost : public StudentType //Derived Class *****************
     cout << "Please Select An Option: " << endl;
     cout << "1.) Hours Taking "<< " - Current value (" << getHoursAStudentTakes()<< ")" << endl;
     cout << "2.) Name of School " << " - Current value (" << getSchoolName()<< ")" <<endl;
-    cout << "3.) What is the Cost Per Credit Hour " << " - Current Value ( " << getendl;
+    cout << "3.) What is the Cost Per Credit Hour " << " - Current Value ( " << getCostPerHour() << endl;
     cout << "4.) What is the Cost of Books Per Class (average) " << endl;
     cout << "5.) What is the Cost of Room and Board " << endl;
     cout << "6.) What is the Cost of Food (per month) " << endl;
